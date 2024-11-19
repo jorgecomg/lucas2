@@ -1,0 +1,107 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1f1f1f !important;
+    color: #ffffff !important;
+}
+
+/* Navbar styling */
+nav {
+    width: 30%;
+
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #940000;
+}
+
+nav a:hover {
+    background-color: #f10404;
+}
+
+/* Form container styling */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+form label {
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #424242;
+}
+
+/* Input styling */
+form input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+form input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button styling */
+form button {
+    padding: 0.75rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Message styling */
+p {
+    color: #d9534f;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+section {
+    text-align: center;
+}
